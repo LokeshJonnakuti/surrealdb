@@ -1,0 +1,335 @@
+repo_name: LokeshJonnakuti/surrealdb
+report_id: cd46da6ce5e83889ef38fc783e1910cc
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-14T10:55:19+00:00'
+requested_by: emmanuel-keller
+provider: github
+branch: main
+detected_tools_count: 27
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/core/Cargo.toml
+  detection_source: core/Cargo.toml
+  last_updated_by: Tobie Morgan Hitchcock
+  last_updated_on: 2024-04-03 09:54:12.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/core/Cargo.toml
+  detection_source: core/Cargo.toml
+  last_updated_by: Rushmore Mushambi
+  last_updated_on: 2024-02-02 22:10:47.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Tobie Morgan Hitchcock
+  last_updated_on: 2020-06-29 15:35:19.000000000 Z
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb
+  detection_source: Repo Metadata
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/docker/Dockerfile
+  detection_source: docker/Dockerfile
+  last_updated_by: Salvador Girones Gil
+  last_updated_on: 2023-12-05 11:52:09.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Tobie Morgan Hitchcock
+  last_updated_on: 2020-06-29 15:35:19.000000000 Z
+- name: Serde
+  description: Serialization framework for Rust
+  website_url: https://serde.rs
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/11028/no-img-open-source.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Tobie Morgan Hitchcock
+  last_updated_on: 2023-11-27 10:23:26.000000000 Z
+- name: Tokio
+  description: Runtime for writing reliable asynchronous applications with Rust
+  website_url: https://tokio.rs/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/12187/bC40df3r_400x400.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Tobie Morgan Hitchcock
+  last_updated_on: 2023-11-27 10:23:26.000000000 Z
+- name: FoundationDB
+  description: Multi-model database with particularly strong fault tolerance, performance,
+    and operational ease
+  website_url: https://foundationdb.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1501/default_d45d133c1c4d603d60c4d2275ea50e7a912b93b3.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/core/Cargo.toml
+  detection_source: core/Cargo.toml
+  last_updated_by: Tobie Morgan Hitchcock
+  last_updated_on: 2024-04-03 09:54:12.000000000 Z
+- name: RocksDB
+  description: Embeddable persistent key-value store for fast storage, developed and
+    maintained by Facebook Database Engineering Team
+  website_url: http://rocksdb.org/
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/2432/81KLTHHZ.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/core/Cargo.toml
+  detection_source: core/Cargo.toml
+  last_updated_by: Tobie Morgan Hitchcock
+  last_updated_on: 2024-04-03 09:54:12.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/.github/workflows/bench.yml
+  detection_source: ".github/workflows/bench.yml"
+  last_updated_by: Rushmore Mushambi
+  last_updated_on: 2024-03-18 09:29:19.000000000 Z
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/dev/docker/grafana.ini
+  detection_source: dev/docker/grafana.ini
+  last_updated_by: Salvador Girones Gil
+  last_updated_on: 2023-07-19 14:35:56.000000000 Z
+- name: Hex
+  description: Package manager for the Erlang ecosystem
+  website_url: https://hex.pm/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/5210/6621265.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/core/Cargo.toml
+  detection_source: core/Cargo.toml
+  last_updated_by: Rushmore Mushambi
+  last_updated_on: 2024-02-02 22:10:47.000000000 Z
+- name: Hyper
+  description: On-Demand Container, Per-Second Billing
+  website_url: https://hyper.sh/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Containers as a Service
+  image_url: https://img.stackshare.io/service/3125/xSVaubUG_400x400.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Tobie Morgan Hitchcock
+  last_updated_on: 2023-07-03 14:30:42.000000000 Z
+- name: Nix
+  description: A package manager for Linux and other Unix systems
+  website_url: http://nixos.org/nix
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/4348/ET9J1uY-_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Tobie Morgan Hitchcock
+  last_updated_on: 2020-06-29 15:35:19.000000000 Z
+- name: OpenTelemetry
+  description: A single set of APIs, libraries, agents, and collector services to
+    capture distributed traces and metrics from your application
+  website_url: https://opentelemetry.io/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/21211/default_0cd8944735bb1aaffbb5abc2d0e513a253ed615d.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Tobie Morgan Hitchcock
+  last_updated_on: 2024-01-23 10:03:25.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/core/Cargo.toml
+  detection_source: core/Cargo.toml
+  last_updated_by: Rushmore Mushambi
+  last_updated_on: 2024-02-02 22:10:47.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Tobie Morgan Hitchcock
+  last_updated_on: 2020-06-29 15:35:19.000000000 Z
+- name: Tower
+  description: The most powerful Git client for Mac &amp; Windows
+  website_url: https://www.git-tower.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Source Code Management Desktop Apps
+  image_url: https://img.stackshare.io/service/1601/tower-dock-icon_transparent_2x.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Salvador Girones Gil
+  last_updated_on: 2024-01-22 17:51:49.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/core/Cargo.toml
+  detection_source: core/Cargo.toml
+  last_updated_by: Rushmore Mushambi
+  last_updated_on: 2024-02-02 22:10:47.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/docker/Dockerfile
+  detection_source: docker/Dockerfile
+  last_updated_by: Salvador Girones Gil
+  last_updated_on: 2023-12-05 11:52:09.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb
+  detection_source: Repo Metadata
+- name: WireMock
+  description: A Java tool to capture HTTP requests and mock them
+  website_url: http://wiremock.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4267/no-img-open-source.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Tobie Morgan Hitchcock
+  last_updated_on: 2020-06-29 15:35:19.000000000 Z
+- name: js
+  website_url: www.js.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5588/jscom.png
+  detection_source_url: https://github.com/LokeshJonnakuti/surrealdb/blob/main/core/Cargo.toml
+  detection_source: core/Cargo.toml
+  last_updated_by: Rushmore Mushambi
+  last_updated_on: 2024-02-02 22:10:47.000000000 Z
